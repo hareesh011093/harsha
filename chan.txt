@@ -1,0 +1,28 @@
+Try this : git pull origin master --allow-unrelated-histories
+Then : git push origin master
+
+
+
+99  git init
+  200  clear
+  201  git remote add origin https://github.com/hareesh011093/harsha.git
+  202  ls
+  203  touch it.txt
+  204  git status
+  205  git add it.txt
+  206  git config --global user.name hareesh011093
+  207  git config --global user.email hareesh.thr10@gmail.com
+  208  git config --list
+  209  clear
+  210  git status
+  211  git commit -m "testing"
+  212  git status
+  213  git push origin master
+  214   git push -u origin master
+  215  GIT_TRACE=1
+  216   git push -u origin master
+  217  git pull origin master
+  218  GIT_TRACE=1 git push -u origin master
+  219  git pull origin master --allow-unrelated-histories
+  220  git push origin master
+  221  history
